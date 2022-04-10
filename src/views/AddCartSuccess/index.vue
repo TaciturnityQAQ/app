@@ -26,7 +26,7 @@
     name: 'AddCartSuccess',
     computed:{
       // 计算skuInfo
-      // 测试git
+      // 测试git 123123
       // hot fix 111
       skuInfo(){
         return JSON.parse(sessionStorage.getItem('SKUINFO'))
