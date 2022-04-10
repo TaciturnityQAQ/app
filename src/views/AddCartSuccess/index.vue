@@ -25,6 +25,7 @@
   export default {
     name: 'AddCartSuccess',
     computed:{
+      // 计算skuInfo
       skuInfo(){
         return JSON.parse(sessionStorage.getItem('SKUINFO'))
       }
