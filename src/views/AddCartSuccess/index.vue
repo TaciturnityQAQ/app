@@ -27,6 +27,7 @@
     computed:{
       // 计算skuInfo
       // 测试git
+      // hot fix 111
       skuInfo(){
         return JSON.parse(sessionStorage.getItem('SKUINFO'))
       }
